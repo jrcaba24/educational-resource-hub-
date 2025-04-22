@@ -1,0 +1,60 @@
+/* Make anchor link scroll leave space for fixed navbar */
+html {
+    scroll-padding-top: 80px;
+}
+
+/* General section padding */
+section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+/* Navbar styling */
+.navbar {
+    background-color: #006494;
+}
+
+.navbar .nav-link {
+    color: #fff;
+    margin-left: 1rem;
+}
+
+.navbar .nav-link:hover {
+    color: #ffd166;
+}
+
+/* Hero Banner */
+.banner {
+    background: linear-gradient(to right, #118ab2, #06d6a0);
+    min-height: 100vh;
+    padding-top: 120px;
+    padding-bottom: 100px;
+}
+
+/* Category cards */
+.category-card {
+    border: none;
+    background-color: #f1f1f1;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.category-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Responsive Category Cards */
+@media (max-width: 768px) {
+    .category-card {
+        margin-bottom: 20px;
+    }
+}
+
+/* Link styles */
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
