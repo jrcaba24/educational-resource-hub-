@@ -29,53 +29,19 @@
     </nav>
 
   <!-- Home / Hero Section -->
-    <section id="home" class="banner d-flex align-items-center text-white text-center">
-        <div class="container">
-        <h1 class="display-4 fw-bold">Welcome to The Resource Hub</h1>
-        <p class="lead" id="introduction">Your gateway to quality educational content, curated for curious minds.</p>
-        <a href="#categories-section" class="btn btn-warning btn-lg mt-3">Browse Categories</a>
-        </div>
-    </section>
-
-    <!-- Featured Resources -->
-    <div id="resources" class="mt-5">
-        <h2 class="fw-bold text-center">Featured Resources</h2>
-        <p class="fs-5 text-center">Explore top picks from our community of educators and learners.</p>
-        
-        <div class="container">
-        <div class="row row-cols-1 row-cols-md-3 g-4">
-            <div class="col">
-            <div class="card h-100">
-                <img src="./assets/space-science.webp" class="card-img-top" alt="Space Science">
-                <div class="card-body">
-                <h5 class="card-title">📚 Introduction to Space Science</h5>
-                <p class="card-text">Video Lecture</p>
-                </div>
-            </div>
-            </div>
-    
-            <div class="col">
-            <div class="card h-100">
-                <img src="./assets/virtual-chem-lab.webp" class="card-img-top" alt="Virtual Chemistry Lab">
-                <div class="card-body">
-                <h5 class="card-title">🧪 Virtual Chemistry Lab</h5>
-                <p class="card-text">Hands-on Simulation</p>
-                </div>
-            </div>
-            </div>
-    
-            <div class="col">
-            <div class="card h-100">
-                <img src="./assets/ancient-civilization.webp" class="card-img-top" alt="History of Ancient Civilizations">
-                <div class="card-body">
-                <h5 class="card-title">📖 History of Ancient Civilizations</h5>
-                <p class="card-text">eBook Download</p>
-                </div>
-            </div>
-            </div>
-        </div>
-        </div>
+  <section id="home" class="banner text-white text-center">
+    <div class="container d-flex flex-column align-items-center justify-content-center">
+      <h1 class="display-4 fw-bold">Welcome to The Resource Hub</h1>
+      <p class="lead" id="introduction">Your gateway to quality educational content, curated for curious minds.</p>
     </div>
+  
+    <div id="featured" class="container mt-5">
+      <h3 class="text-white">Featured Resources</h3>
+      <p class="fs-5">Explore top picks from our community of educators and learners.</p>
+      <a href="#categories-section" class="btn btn-warning btn-lg mt-3">Browse Categories</a>
+    </div>
+  </section>
+  
   
 
     <!-- Categories Section -->
@@ -84,7 +50,7 @@
         <h2 class="fw-bold mb-4">Explore Categories</h2>
     
         <!-- Accordion Categories -->
-        <div class="accordion" id="categoriesAccordion">
+        <div class="accordion" id="categories">
             <!-- Science Category -->
             <div class="accordion-item">
             <h2 class="accordion-header" id="headingScience">
@@ -129,6 +95,46 @@
         </div>
         </div>
     </section>
+
+    <!-- Sample Resources -->
+    <div id="resources" class="mt-5">
+        <h2 class="fw-bold text-center">Sample Resources</h2>
+        <p class="fs-5 text-center">Explore top picks from our community of educators and learners.</p>
+        
+        <div class="container">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+            <div class="card h-100">
+                <img src="./assets/space-science.webp" class="card-img-top" alt="Space Science">
+                <div class="card-body">
+                <h5 class="card-title">📚 Introduction to Space Science</h5>
+                <p class="card-text">Video Lecture</p>
+                </div>
+            </div>
+            </div>
+    
+            <div class="col">
+            <div class="card h-100">
+                <img src="./assets/virtual-chem-lab.webp" class="card-img-top" alt="Virtual Chemistry Lab">
+                <div class="card-body">
+                <h5 class="card-title">🧪 Virtual Chemistry Lab</h5>
+                <p class="card-text">Hands-on Simulation</p>
+                </div>
+            </div>
+            </div>
+    
+            <div class="col">
+            <div class="card h-100">
+                <img src="./assets/ancient-civilization.webp" class="card-img-top" alt="History of Ancient Civilizations">
+                <div class="card-body">
+                <h5 class="card-title">📖 History of Ancient Civilizations</h5>
+                <p class="card-text">eBook Download</p>
+                </div>
+            </div>
+            </div>
+        </div>
+        </div>
+    </div>
   
   
   
